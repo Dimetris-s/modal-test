@@ -1,0 +1,23 @@
+.root {
+  width: 100%;
+}
+.input {
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 10px;
+  height: 40px;
+  width: 100%;
+  transition: .3s ease;
+
+  &:focus {
+    box-shadow: 0 0 0 1px lighten(#2684ff, 10%);
+    border-color: #2684ff;
+  }
+}
+
+.label {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
